@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A96F2D628682031008815EA /* PolyrhythmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A96F2D528682031008815EA /* PolyrhythmApp.swift */; };
+		9A96F2D828682031008815EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A96F2D728682031008815EA /* ContentView.swift */; };
+		9A96F2DA28682032008815EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F2D928682032008815EA /* Assets.xcassets */; };
+		9A96F2DD28682032008815EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F2DC28682032008815EA /* Preview Assets.xcassets */; };
+		9A96F2E8286836EF008815EA /* bongo hi.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F2E6286836EE008815EA /* bongo hi.wav */; };
+		9A96F2E9286836EF008815EA /* bongo lo.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9A96F2E7286836EE008815EA /* bongo lo.wav */; };
+		9AAE77DD28689384000EBF58 /* clap1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9AAE77DC28689384000EBF58 /* clap1.wav */; };
+		9AAE77DF286898A2000EBF58 /* clap2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9AAE77DE286898A2000EBF58 /* clap2.wav */; };
+		9AAE77E128689907000EBF58 /* donk.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9AAE77E028689907000EBF58 /* donk.wav */; };
+		9AAE77E32868A694000EBF58 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAE77E22868A694000EBF58 /* Sound.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A96F2D228682031008815EA /* Polyrhythm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Polyrhythm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A96F2D528682031008815EA /* PolyrhythmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyrhythmApp.swift; sourceTree = "<group>"; };
+		9A96F2D728682031008815EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9A96F2D928682032008815EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A96F2DC28682032008815EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9A96F2DE28682032008815EA /* Polyrhythm.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Polyrhythm.entitlements; sourceTree = "<group>"; };
+		9A96F2E6286836EE008815EA /* bongo hi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "bongo hi.wav"; sourceTree = "<group>"; };
+		9A96F2E7286836EE008815EA /* bongo lo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "bongo lo.wav"; sourceTree = "<group>"; };
+		9AAE77DC28689384000EBF58 /* clap1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clap1.wav; sourceTree = "<group>"; };
+		9AAE77DE286898A2000EBF58 /* clap2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clap2.wav; sourceTree = "<group>"; };
+		9AAE77E028689907000EBF58 /* donk.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = donk.wav; sourceTree = "<group>"; };
+		9AAE77E22868A694000EBF58 /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A96F2CF28682031008815EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A96F2C928682031008815EA = {
+			isa = PBXGroup;
+			children = (
+				9A96F2D428682031008815EA /* Polyrhythm */,
+				9A96F2D328682031008815EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A96F2D328682031008815EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A96F2D228682031008815EA /* Polyrhythm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A96F2D428682031008815EA /* Polyrhythm */ = {
+			isa = PBXGroup;
+			children = (
+				9A96F2D528682031008815EA /* PolyrhythmApp.swift */,
+				9A96F2D728682031008815EA /* ContentView.swift */,
+				9AAE77E22868A694000EBF58 /* Sound.swift */,
+				9A96F2D928682032008815EA /* Assets.xcassets */,
+				9AAE77DC28689384000EBF58 /* clap1.wav */,
+				9AAE77DE286898A2000EBF58 /* clap2.wav */,
+				9AAE77E028689907000EBF58 /* donk.wav */,
+				9A96F2E6286836EE008815EA /* bongo hi.wav */,
+				9A96F2E7286836EE008815EA /* bongo lo.wav */,
+				9A96F2DE28682032008815EA /* Polyrhythm.entitlements */,
+				9A96F2DB28682032008815EA /* Preview Content */,
+			);
+			path = Polyrhythm;
+			sourceTree = "<group>";
+		};
+		9A96F2DB28682032008815EA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9A96F2DC28682032008815EA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A96F2D128682031008815EA /* Polyrhythm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A96F2E128682032008815EA /* Build configuration list for PBXNativeTarget "Polyrhythm" */;
+			buildPhases = (
+				9A96F2CE28682031008815EA /* Sources */,
+				9A96F2CF28682031008815EA /* Frameworks */,
+				9A96F2D028682031008815EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Polyrhythm;
+			productName = Polyrhythm;
+			productReference = 9A96F2D228682031008815EA /* Polyrhythm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A96F2CA28682031008815EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					9A96F2D128682031008815EA = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 9A96F2CD28682031008815EA /* Build configuration list for PBXProject "Polyrhythm" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A96F2C928682031008815EA;
+			productRefGroup = 9A96F2D328682031008815EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A96F2D128682031008815EA /* Polyrhythm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A96F2D028682031008815EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AAE77DD28689384000EBF58 /* clap1.wav in Resources */,
+				9A96F2E9286836EF008815EA /* bongo lo.wav in Resources */,
+				9A96F2DD28682032008815EA /* Preview Assets.xcassets in Resources */,
+				9A96F2DA28682032008815EA /* Assets.xcassets in Resources */,
+				9A96F2E8286836EF008815EA /* bongo hi.wav in Resources */,
+				9AAE77E128689907000EBF58 /* donk.wav in Resources */,
+				9AAE77DF286898A2000EBF58 /* clap2.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A96F2CE28682031008815EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A96F2D828682031008815EA /* ContentView.swift in Sources */,
+				9AAE77E32868A694000EBF58 /* Sound.swift in Sources */,
+				9A96F2D628682031008815EA /* PolyrhythmApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9A96F2DF28682032008815EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A96F2E028682032008815EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9A96F2E228682032008815EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Polyrhythm/Polyrhythm.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Polyrhythm/Preview Content\"";
+				DEVELOPMENT_TEAM = 232RDC7V36;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jonmhobson.Polyrhythm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9A96F2E328682032008815EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Polyrhythm/Polyrhythm.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Polyrhythm/Preview Content\"";
+				DEVELOPMENT_TEAM = 232RDC7V36;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jonmhobson.Polyrhythm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A96F2CD28682031008815EA /* Build configuration list for PBXProject "Polyrhythm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A96F2DF28682032008815EA /* Debug */,
+				9A96F2E028682032008815EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A96F2E128682032008815EA /* Build configuration list for PBXNativeTarget "Polyrhythm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A96F2E228682032008815EA /* Debug */,
+				9A96F2E328682032008815EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A96F2CA28682031008815EA /* Project object */;
+}
